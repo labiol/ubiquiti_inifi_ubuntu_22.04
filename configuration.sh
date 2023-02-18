@@ -9,6 +9,9 @@ wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n
    \&& apt install --yes /tmp/libssl1.0.0_1.0.2n-1ubuntu5.10_amd64.deb
    \&& rm /tmp/libssl1.0.0_1.0.2n-1ubuntu5.10_amd64.deb
    
+## for debian -- see: http://snapshot.debian.org/package/openssl/1.0.2~beta3-1/#libssl1.0.0_1.0.2:7e:beta3-1; http://snapshot.debian.org/binary/libssl1.0.0/
+http://snapshot.debian.org/archive/debian/20141107T041606Z/pool/main/o/openssl/libssl1.0.0_1.0.2~beta3-1_amd64.deb
+   
 ## install mongodb
 wget -qO - https://www.mongodb.org/static/pgp/server-3.6.asc | sudo apt-key add -
 echo 'deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse' | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
