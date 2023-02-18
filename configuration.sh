@@ -10,7 +10,10 @@ wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n
    \&& rm /tmp/libssl1.0.0_1.0.2n-1ubuntu5.10_amd64.deb
    
 ## for debian -- see: http://snapshot.debian.org/package/openssl/1.0.2~beta3-1/#libssl1.0.0_1.0.2:7e:beta3-1; http://snapshot.debian.org/binary/libssl1.0.0/
-http://snapshot.debian.org/archive/debian/20141107T041606Z/pool/main/o/openssl/libssl1.0.0_1.0.2~beta3-1_amd64.deb
+#wget http://snapshot.debian.org/archive/debian/20141107T041606Z/pool/main/o/openssl/libssl1.0.0_1.0.2~beta3-1_amd64.deb
+#wget wget http://snapshot.debian.org/archive/debian/20190501T215844Z/pool/main/g/glibc/multiarch-support_2.28-10_amd64.deb
+#dpkg -i *deb
+
    
 ## install mongodb
 wget -qO - https://www.mongodb.org/static/pgp/server-3.6.asc | sudo apt-key add -
